@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f3a476;
+    background-color: #616912;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,11 +10,11 @@ body {
   
   .countdown-container {
     text-align: center;
-    background-color: rgba(168, 20, 20, 0.582);
+    background-color: rgba(190, 212, 92, 0.884);
     color: rgb(41, 35, 35);
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(165, 0, 0, 0.514);
+    box-shadow: 0 0 10px rgba(170, 197, 17, 0.658);
   }
   
   .countdown {
