@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promo Doro Clock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="countdown-container">
+    <div class="countdown">
+      <div class="countdown-item">
+        <span id="days"></span>
+        <span>days</span>
+      </div>
+      <div class="countdown-item">
+        <span id="hours"></span>
+        <span>hours</span>
+      </div>
+      <div class="countdown-item">
+        <span id="minutes"></span>
+        <span>minutes</span>
+      </div>
+      <div class="countdown-item">
+        <span id="seconds"></span>
+        <span>seconds</span>
+      </div>
+    </div>
+    <div class="controls">
+      <label for="target-date">Set Target Date:</label>
+      <input type="datetime-local" id="target-date" required>
+      <button id="start-btn">Start</button>
+      <button id="pause-btn">Pause</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
